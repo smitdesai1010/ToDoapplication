@@ -52,7 +52,7 @@ form button:hover{
   margin-right: auto;
   padding-left: 50px;
   height: 70vh;
-  width: 500px;
+  width: 40%;
 }
 
 .list-obj{
@@ -150,6 +150,6 @@ form button:hover{
   }
 
   .list-obj{
-    height: 3.5vh;
+    height: 2.5vh;
   }
 }
