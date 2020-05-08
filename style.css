@@ -140,7 +140,7 @@ form button:hover{
   }
 
   h1{
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   h1,form{
@@ -160,6 +160,6 @@ form button:hover{
   }
 
   .list-obj{
-    height: 2vh;
+    height: 5vh;
   }
 }
