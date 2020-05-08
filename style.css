@@ -126,3 +126,30 @@ form button:hover{
   text-decoration-line: line-through;
   opacity: 50%;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  h1{
+    font-size: 6rem;
+  }
+
+  h1,form{
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form input,form button{
+    font-size: 3rem;
+  }
+
+  .list-obj{
+    height: 3.5vh;
+  }
+}
