@@ -135,6 +135,7 @@ form button:hover{
 @media only screen and (max-width: 768px) {
 
   body{
+    background-image: none;
     background-color: black;
   }
 
@@ -150,7 +151,7 @@ form button:hover{
   }
 
   form input,form button{
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .todo-list{
