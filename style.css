@@ -71,7 +71,7 @@ form button:hover{
   background-color: white;
   height: 100%;
   width: 80%;
-  font-size: 25px;
+  font-size: 1.6rem;
   text-align: left;
   list-style-type: none;
   text-decoration-line: none;
@@ -134,6 +134,10 @@ form button:hover{
 
 @media only screen and (max-width: 768px) {
 
+  body{
+    background-color: black;
+  }
+
   h1{
     font-size: 6rem;
   }
@@ -149,7 +153,12 @@ form button:hover{
     font-size: 3rem;
   }
 
+  .todo-list{
+    margin-right: auto;
+    width:100%;
+  }
+
   .list-obj{
-    height: 2.5vh;
+    height: 2vh;
   }
 }
