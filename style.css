@@ -12,6 +12,7 @@ body{
 
 h1{
   font-size: 3rem;
+  cursor: pointer;
 }
 
 h1,form{
@@ -159,6 +160,6 @@ form button:hover{
   }
 
   .list-obj{
-    height: 5vh;
+    height: auto;
   }
 }

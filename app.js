@@ -5,6 +5,13 @@ document.querySelector('#header').addEventListener('click',changename);
 document.querySelector('#btn').addEventListener('click',()=>{
 
   let value=getvalue();
+
+  if (value==='')
+  {
+   alert('Cannot add empty item');
+   return;
+  }
+  
   addtolist(value);
 
     todoList=JSON.parse(localStorage.getItem('todoObjs'));
